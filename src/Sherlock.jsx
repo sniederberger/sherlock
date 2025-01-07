@@ -119,8 +119,27 @@ function Sherlock() {
           { error3 && 
             <>
               <Alert severity="warning">Corresponding Join Not Defined</Alert>
+              <Divider />
               <Alert severity="warning">Database debug</Alert>
+              <Divider />
               <Alert severity="warning">Interpreting debugdbquery output</Alert>
+              <Divider />
+              <Alert severity="error">ODBC error when running Crystal Reports</Alert>
+              <Divider />
+              <Alert severity="warning">Corresponding Join Not Defined</Alert>
+              <Divider />
+              <Alert severity="warning">Database debug</Alert>
+              <Divider />
+              <Alert severity="warning">Interpreting debugdbquery output</Alert>
+              <Divider />
+              <Alert severity="error">ODBC error when running Crystal Reports</Alert>
+              <Divider />
+              <Alert severity="warning">Corresponding Join Not Defined</Alert>
+              <Divider />
+              <Alert severity="warning">Database debug</Alert>
+              <Divider />
+              <Alert severity="warning">Interpreting debugdbquery output</Alert>
+              <Divider />
               <Alert severity="error">ODBC error when running Crystal Reports</Alert>
             </>
           }
