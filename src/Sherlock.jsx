@@ -15,7 +15,7 @@ function Sherlock() {
   const solution22Ref = useRef("")
 
   function handleSolution1Click() {
-    if (solution1Ref.current.value === "EdelgaseFluorveringertsich") {
+    if (solution1Ref.current.value === "EdelgaseFluorverringertsich") {
       setVisible1(true);
     } else {
       setError1(true);
