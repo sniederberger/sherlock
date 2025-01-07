@@ -36,11 +36,10 @@ function Sherlock() {
 
   return (
     <>
-      <Typography variant="h2" align="center" gutterBottom>
-        Willkommen zurück, Sherlock!
-      </Typography>
-
       <Stack spacing={4}>
+        <Typography variant="h2" align="center" gutterBottom>
+          Willkommen zurück, Sherlock!
+        </Typography>
         <Card>
           <CardContent>
             <Typography variant="h5" gutterBottom>
@@ -108,7 +107,7 @@ function Sherlock() {
               Secret Important National Great Society Database
             </Typography>
             <Typography variant="body1" gutterBottom paragraph>
-              Mit den beiden Tatverdächtigen werden mit 3 Informanten in Kontakt gebracht. 
+              Die beiden Tatverdächtigen werden mit 3 Informanten in Kontakt gebracht. 
               Befrage die Informanten, um mehr über die Tatverdächtigen zu erfahren.
               Sei dabei so diskret wie möglich.
             </Typography>
@@ -135,7 +134,7 @@ function Sherlock() {
               Fatal Error
             </Typography>
             <Typography variant="body1" gutterBottom paragraph>
-                Die Datenbankeinträge sind fehlerhaft und konnten nicht korrekt ausgelesen werden.
+                Die Datenbankeinträge sind fehlerhaft und konnten nicht korrekt ausgelesen werden:
             </Typography>
             <CardMedia
                 component="img"
@@ -143,7 +142,6 @@ function Sherlock() {
                 image="src/assets/bild2.jpg"
                 alt="" />
           </CardContent>
-          <Divider variant="middle" />
           <CardContent>
             <Typography variant="body2">
               Hinweis: Die Kontaktdaten der 3 Informanten sind durcheinandergeraten. 
@@ -155,7 +153,6 @@ function Sherlock() {
         
         }
       </Stack>
-
     </>
   )
 }
