@@ -75,7 +75,7 @@ function Sherlock() {
               <CardMedia
                 component="img"
                 height="240"
-                image="src/assets/bild1.jpg"
+                image="assets/bild1.jpg"
                 alt="" />
               <Typography variant="body1" gutterBottom paragraph>
                 Es ist ein Mord passiert. 
@@ -139,7 +139,7 @@ function Sherlock() {
             <CardMedia
                 component="img"
                 height="120"
-                image="src/assets/bild2.jpg"
+                image="assets/bild2.jpg"
                 alt="" />
           </CardContent>
           <CardContent>
